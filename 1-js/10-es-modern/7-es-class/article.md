@@ -266,7 +266,7 @@ class Rabbit extends Animal {
 
 new Rabbit("Вася").walk();
 // I walk: Вася
-// and jump!
+// ...and jump!
 ```
 
 Как видим, в `new Rabbit` доступны как свои методы, так и (через `super`) методы родителя.
